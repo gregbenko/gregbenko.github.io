@@ -250,27 +250,29 @@ img:hover {
     clear: both;
 }*/
 
+
 toggle-nav {
+  top: 15px;
+  right: 20px;
+  padding: 5px;
   position: absolute;
-  top: 25px;
-  right: 30px;
   cursor: pointer;
   display: block;
   padding: 5px;
-  /*padding: 5px 10px;*/
 }
-
 
 toggle-nav line {
     display: block;
     margin: 0 0 5px;
+    position: fixed;
+    border-radius: 25px;
     width: 30px;
-    height: 4px;
+    height: 3px;
     outline: 1px solid transparent;
     background: #4A4A4A;
     position: relative;
-    border-radius: 15px;
 }
+
 
 .menu-page {
   display: none;
@@ -396,6 +398,11 @@ toggle-nav line {
 /*--------------------*/
 
 @media only screen and (max-width: 650px) {
+
+  .intro-content {
+    position: relative;
+  }
+
   .intro-section {
     height: auto;
     padding-top: 110px;
@@ -422,23 +429,8 @@ toggle-nav line {
     background-color: #1660E6;
   }
 
-  toggle-nav {
-    top: 15px;
-    right: 20px;
-    padding: 5px;
-
-  }
-
-  toggle-nav line {
-      border-radius: 25px;
-      width: 30px;
-      height: 3px;
-      outline: 1px solid transparent;
-      background: #4A4A4A;
-  }
-
-
 }
+
 
 
 @media only screen and (min-width: 650px) {
@@ -446,9 +438,42 @@ toggle-nav line {
     padding-left: 50px;
   }
 
+  .intro-content {
+    position: relative;
+  }
+
+  toggle-nav {
+    top: 25px;
+    right: 35px;
+    padding: 5px;
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    padding: 5px;
+  }
+
+  toggle-nav line {
+      display: block;
+      margin: 0 0 5px;
+      position: fixed;
+      border-radius: 15px;
+      width: 30px;
+      height: 4px;
+      outline: 1px solid transparent;
+      background: #4A4A4A;
+      position: relative;
+  }
+
 }
 
+
+
 @media only screen and (min-width: 750px) {
+
+  .intro-content {
+    position: relative;
+  }
+
   .quartz {
     width: 70%;
     /*margin: 25px;*/
@@ -473,6 +498,28 @@ toggle-nav line {
   .pinecone {
     width: 60%;
     margin-bottom: 25px;
+  }
+
+  toggle-nav {
+    top: 25px;
+    right: 35px;
+    padding: 5px;
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    padding: 5px;
+  }
+
+  toggle-nav line {
+      display: block;
+      margin: 0 0 5px;
+      position: fixed;
+      border-radius: 15px;
+      width: 30px;
+      height: 4px;
+      outline: 1px solid transparent;
+      background: #4A4A4A;
+      position: relative;
   }
 
 
