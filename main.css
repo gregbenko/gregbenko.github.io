@@ -271,7 +271,7 @@ toggle-nav line {
   padding-top: 50px;
   display: none;
   transition: all 0.5s;
-  animation: slide 0.5s forwards;
+  animation: slide 0.5s backwards;
   width: 100%;
 
 }
