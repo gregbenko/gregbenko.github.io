@@ -384,6 +384,8 @@ toggle-nav line {
 @media only screen and (max-width: 650px) {
   .intro-section {
     height: auto;
+    padding-top: 125px;
+    padding-bottom: 100px;
   }
 
 }
