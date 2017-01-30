@@ -21,7 +21,8 @@
 
     -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>Gregory Benko</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="main.css">
@@ -37,7 +38,7 @@
                     <header>
                         <row>
                             <column>
-                                <toggle-nav id="ham" style="z-index: 2;">
+                                <toggle-nav id="ham" style="z-index: 1;">
                                     <line id="line-1"></line>
                                     <line id="line-2"></line>
                                     <line id="line-3"></line>
@@ -62,9 +63,9 @@
                                 <div class="group-2">
                                     <span class="sub">MORE INFO</span>
                                     <div class="button-group">
-                                        <a href="#" class="nav-button btn-about">About</a>
-                                        <a href="#podcastarecool" class="nav-button btn-about">Podcasts</a>
-                                        <a href="#musiciscool" class="nav-button btn-about">Favorite Tracks</a>
+                                        <a href="#podcasts" class="nav-button btn-about">Podcasts</a>
+                                        <a href="#favoritetracks" class="nav-button btn-about">Favorite Tracks</a>
+                                        <a href="#somefacts" class="nav-button btn-about">Some Facts</a>
                                     </div>
                                 </div>
                             </column>
@@ -84,7 +85,7 @@
                                     <h1>TRUTH SEEKER.</h1>
                                 </div>
                                 <div class="intro-para">
-                                    <p>I'm the founder of <a href="#">@Pinecone</a>, <a href="#">@Timeflow</a>, and <a href="#">@InfiniteGround</a>. My purpose: Help individuals live a life led by congruence and flow states. See you on the other side!</p>
+                                    <p>I'm the founder of <a href="#004">@Pinecone</a>, <a href="#003">@Timeflow</a>, and <a href="https://www.instagram.com/infiniteground/" target="_blank">@InfiniteGround</a>. My purpose: Help individuals live a life led by congruence and flow states. See you on the other side!</p>
                                 </div>
 
                             </div>
@@ -164,7 +165,7 @@
                 </div>
 
                 <div class="white-section">
-                    <div id="podcastarecool" class="podcast-section">
+                    <div id="podcasts" class="podcast-section">
                         <span class="podcast-h">PODCASTS.</span>
                         <ul>
                             <li><span class="podcast-name">INFINITE GROUND</span><a href="#">Episode #2: Understanding Congruence</a></li>
@@ -172,10 +173,19 @@
                         </ul>
                     </div>
 
-                    <div id="musiciscool" class="music-section">
+                    <div id="favoritetracks" class="music-section">
                         <span class="podcast-h">FAVORITE TRACKS.</span>
-                        <div class="spotify">
-                            <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Agregorybenko%3Aplaylist%3A6mE4ADFVwdovyLQ4c2w4Am" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                        <div class="spot-container">
+                            <div class="spotify">
+                                <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Agregorybenko%3Aplaylist%3A6mE4ADFVwdovyLQ4c2w4Am" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="somefacts" class="about-section">
+                        <span class="podcast-h">SOME FACTS.</span>
+                        <div class="spot-container">
+                            <span class="about-me">Born & raised in Montreal. Huge ambient and techno music fan. Enjoy watching Federer the Great. Interested in Theosophy and philosophical currents from ancient times. Socrates, Lao Tzu, Plato, Pythagoras, Gautama are my jam! Regarding modern times, I dig Carl Roger's work on Congruence, and Hannah Arendt's wonderful "Life of Mind" analysis.</span>
                         </div>
                     </div>
                 </div>

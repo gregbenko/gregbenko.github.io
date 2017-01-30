@@ -89,7 +89,7 @@ img:hover {
   font-size: 1.1rem;
   /*font-weight: bold;*/
   color: #FAFAFA;
-  background-color: #3B80FE;
+  background-color: rgb(22,96,230);
   border-radius: 35px;
   border-style: none;
   padding: 20px 80px;
@@ -99,7 +99,7 @@ img:hover {
 
 .reach-out:hover {
   box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
-  background-color: #1660E6;
+  background-color: rgb(22,96,230);
   /*filter: blur(5px);*/
 }
 
@@ -212,12 +212,29 @@ img:hover {
 }
 
 .music-section {
-  margin: 50px 10px 10px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.spot-container {
+  display: flex;
+  justify-content: center;
 }
 
 .spotify {
   text-align: center;
-  margin: 25px 0px;
+  margin: 25px;
+  width: 90%;
+}
+
+.about-section {
+  margin: 20px 10px 10px;
+}
+
+.about-me {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .bottom {
@@ -280,6 +297,7 @@ toggle-nav line {
 .menu-page {
   display: none;
   align-items: center;
+  justify-content: center;
   height: 100vh;
   background-color: #FAFAFA;
 }
@@ -289,7 +307,7 @@ toggle-nav line {
   background-color: #FAFAFA;
   padding-top: 50px;
   display: none;
-  width: 100%;
+  width: 95%;
 
 }
 
@@ -428,7 +446,7 @@ toggle-nav line {
 
   .reach-out {
     box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
-    background-color: #1660E6;
+    background-color: rgb(22,96,230);
     font-size: 1rem;
     border-radius: 35px;
     border-style: none;
@@ -467,6 +485,59 @@ toggle-nav line {
       background: #4A4A4A;
       position: relative;*/
   }
+
+
+
+}
+
+@media (min-width:650px) and (max-width:1195px){
+  .button-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .button-group::before, .button-group::after {
+  content: '';
+  width: 100%;
+  order: 1;
+  }
+
+  .btn-pine:nth-child(n+3) {
+    order: 1;
+  }
+
+  .btn-infinite:nth-child(n+4) {
+    order: 1;
+  }
+
+  .btn-qz {
+    display: inline-block;
+    flex: 1;
+  }
+
+  .btn-ndvdls {
+    display: inline-block;
+    flex: 1;
+  }
+  .btn-time {
+    display: inline-block;
+    flex: 1;
+  }
+  .btn-infinite {
+    display: inline-block;
+    width: 33%;
+  }
+  .btn-pine {
+    display: inline-block;
+    width: 33%;
+  }
+
+  .btn-about {
+    flex: 1;
+  }
+
+
 
 }
 
@@ -507,27 +578,11 @@ toggle-nav line {
   toggle-nav {
     top: 25px;
     right: 25px;
-    /*padding: 5px;
-    position: absolute;
-    cursor: pointer;
-    display: block;
-    padding: 5px;*/
   }
-
-  /*toggle-nav line {
-      display: block;
-      margin: 0 0 5px;
-      position: fixed;
-      border-radius: 15px;
-      width: 30px;
-      height: 4px;
-      outline: 1px solid transparent;
-      background: #4A4A4A;
-      position: relative;
-  }*/
 
 
 @media only screen and (min-width: 1195px) {
+
 
     .intro-content {
         position: fixed;
@@ -541,6 +596,10 @@ toggle-nav line {
       align-items: center;
       height: 100vh;
       padding-left: 50px;
+    }
+
+    .reach-out {
+      margin-left: 10%;
     }
 
     .main-content {
