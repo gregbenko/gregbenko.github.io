@@ -270,10 +270,6 @@ toggle-nav line {
   background-color: #FAFAFA;
   padding-top: 50px;
   display: none;
-  -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-delay: 2s;
-  animation: slide 0.5s forwards;
-  animation-delay: 2s;
   width: 100%;
 
 }
