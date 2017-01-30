@@ -270,8 +270,8 @@ toggle-nav line {
   background-color: #FAFAFA;
   padding-top: 50px;
   display: none;
-  transition: all 0.5s;
-  animation: slide 0.5s backwards;
+  /*transition: all 0.5s;
+  animation: slide 0.5s backwards;*/
   width: 100%;
 
 }
