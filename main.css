@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
    width: 100%;
 }
 
@@ -405,7 +405,7 @@ toggle-nav line {
 
   .menu-page {
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 25px;
     height: auto;
   }
 
